@@ -1,0 +1,63 @@
+
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Detecting dark mode */
+@media (prefers-color-scheme: dark) {
+
+  body {
+    
+    color: white;
+   /* background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 85%, #b82e1f 0%);
+   
+
+    background: hsla(0, 0%, 0%, 1);
+
+background: linear-gradient(0deg, hsla(0, 0%, 0%, 1) 10%, hsla(321, 97%, 23%, 1) 100%);
+
+background: -moz-linear-gradient(0deg, hsla(0, 0%, 0%, 1) 10%, hsla(321, 97%, 23%, 1) 100%);
+
+background: -webkit-linear-gradient(0deg, hsla(0, 0%, 0%, 1) 10%, hsla(321, 97%, 23%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000000", endColorstr="#75024D", GradientType=1 );
+*/
+background: rgb(6,0,34);
+background: linear-gradient(326deg, rgba(6,0,34,1) 49%, rgba(2,0,36,1) 63%, rgba(97,0,0,1) 92%, rgba(134,4,4,1) 100%);  }
+
+}
+
+h1{ 
+  color: red;
+  text-align: center;
+}
+
+button{
+  background-color: red;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  padding: 0.2rem;
+  text-transform: lowercase;
+  align-items: center;
+}
+
+
+
+img{
+  border-radius: 1rem;
+}
+
+.Card{
+  float:left;
+  margin-right: 1.5rem;
+  
+}
+
+.demod{
+  background-color: blanchedalmond;
+}
+
+
